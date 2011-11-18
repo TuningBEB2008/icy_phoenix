@@ -515,10 +515,10 @@ if(sizeof($blocks) > 0)
 			'BLOCK_NUMBER' => $i,
 			'BLOCK_ANCHOR' => $anchor_code,
 
-			'U_BLOCK_EDIT' => append_sid('admin_faq_editor.' . PHP_EXT . '?mode=block_edit&block=' . $i . '&file=' . $file . '&language=' . $language),
-			'U_BLOCK_MOVE_UP' => append_sid('admin_faq_editor.' . PHP_EXT . '?mode=block_up&block=' . $i . '&file=' . $file . '&language=' . $language),
-			'U_BLOCK_MOVE_DOWN' => append_sid('admin_faq_editor.' . PHP_EXT . '?mode=block_dn&block=' . $i . '&file=' . $file . '&language=' . $language),
-			'U_BLOCK_DELETE' => append_sid('admin_faq_editor.' . PHP_EXT . '?mode=block_del&block=' . $i . '&file=' . $file . '&language=' . $language)
+			'U_BLOCK_EDIT' => append_sid('admin_faq_editor.' . PHP_EXT . '?mode=block_edit&amp;block=' . $i . '&file=' . $file . '&language=' . $language),
+			'U_BLOCK_MOVE_UP' => append_sid('admin_faq_editor.' . PHP_EXT . '?mode=block_up&amp;block=' . $i . '&file=' . $file . '&language=' . $language),
+			'U_BLOCK_MOVE_DOWN' => append_sid('admin_faq_editor.' . PHP_EXT . '?mode=block_dn&amp;block=' . $i . '&file=' . $file . '&language=' . $language),
+			'U_BLOCK_DELETE' => append_sid('admin_faq_editor.' . PHP_EXT . '?mode=block_del&amp;block=' . $i . '&file=' . $file . '&language=' . $language)
 			)
 		);
 
