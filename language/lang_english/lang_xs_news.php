@@ -27,35 +27,35 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'n_title' => 'News Administration',
+	'N_TITLE' => 'News Administration',
 
-	'n_main_title' => 'News Items',
-	'n_main_title_explain' => 'Manage the news items.<br /><br />If you wish to change the display status of any particular news item then you will need to edit it.',
+	'N_MAIN_TITLE' => 'News Items',
+	'N_MAIN_TITLE_EXPLAIN' => 'Manage the news items.<br /><br />If you wish to change the display status of any particular news item then you will need to edit it.',
 
 // Config
-	'n_config_title' => 'News Configuration',
-	'n_config_title_explain' => 'Alter the settings for News.',
-	'n_config_updated' => 'News Configuration updated.',
+	'N_CONFIG_TITLE' => 'News Configuration',
+	'N_CONFIG_TITLE_EXPLAIN' => 'Alter the settings for News.',
+	'N_CONFIG_UPDATED' => 'News Configuration updated.',
 
 // Add menu item
-	'n_add_page_title' => 'Add News Item',
-	'n_add_page_title_explain' => 'Create a new news item.',
-	'n_add_header' => 'Add new News item',
-	'n_news_item_added' => 'News Item added.',
+	'N_ADD_PAGE_TITLE' => 'Add News Item',
+	'N_ADD_PAGE_TITLE_EXPLAIN' => 'Create a new news item.',
+	'N_ADD_HEADER' => 'Add new News item',
+	'N_NEWS_ITEM_ADDED' => 'News Item added.',
 
 // edit menu item
-	'n_edit_page_title' => 'Edit News Item',
-	'n_edit_page_title_explain' => 'Edit the news item.',
-	'n_edit_header' => 'Edit existing news item',
+	'N_EDIT_PAGE_TITLE' => 'Edit News Item',
+	'N_EDIT_PAGE_TITLE_EXPLAIN' => 'Edit the news item.',
+	'N_EDIT_HEADER' => 'Edit existing news item',
 
 // Delete
-	'n_news_delete' => 'Delete News Item.',
-	'n_news_delete_explain' => 'Delete a news item.',
-	'n_confirm_delete_news' => 'Are you sure you wish to delete this news item?',
+	'N_NEWS_DELETE' => 'Delete News Item.',
+	'N_NEWS_DELETE_EXPLAIN' => 'Delete a news item.',
+	'N_CONFIRM_DELETE_NEWS' => 'Are you sure you wish to delete this news item?',
 
 // General Settings used by Add/Edit Menu item
-	'n_news_item' => 'News Item',
-	'n_news_item_display' => 'Display This Item?',
+	'N_NEWS_ITEM' => 'News Item',
+	'N_NEWS_ITEM_DISPLAY' => 'Display This Item?',
 
 	'n_news_date' => 'News Date',
 
